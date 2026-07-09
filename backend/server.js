@@ -15,9 +15,9 @@ const SECRET_KEY = 'your_secret_key';
 // Connect to MySQL
 const db = mysql.createConnection({
   host: 'localhost',
-  user: 'your_mysql_user',
-  password: 'your_mysql_password',
-  database: 'myapp_db'
+  user: 'root',
+  password: '',
+  database: 'sample'
 });
 
 db.connect(err => {
